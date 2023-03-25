@@ -1,7 +1,7 @@
 .hero {
     display: flex;
     justify-content: space-between;
-    padding: 15px 1.6%;
+    padding: 23px 1.75%;
 
 
     .left-h {
@@ -13,8 +13,8 @@
 
     .right-h {
         flex: 1;
-        display: flex;
-        justify-content: flex-end;
+        background-color: #f48916;
+        position: relative;
         font-family: 'Open Sans', sans-serif;
     }
 
@@ -56,8 +56,8 @@
         color: white;
         text-overflow: inherit;
 
-        div{
-            &:nth-of-type(3){
+        div {
+            &:nth-of-type(3) {
                 font-size: 1rem;
                 font-weight: 200;
                 text-transform: none;
@@ -72,6 +72,48 @@
 
         .span {
             font-family: 'Open Sans', sans-serif;
+        }
+    }
+
+    .figures {
+        display: flex;
+        gap: 2rem;
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                &:nth-of-type(1) {
+                    color: white;
+                    font-size: 2rem;
+                }
+
+                &:nth-of-type(2) {
+                    color: grey;
+                    text-transform: #9c9c9c;
+                }
+            }
+        }
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 1rem;
+
+        button {
+            &:nth-child(1) {
+                color: white;
+                background-color: orange;
+                width: 8rem;
+            }
+
+            &:nth-child(2) {
+                color: white;
+                background-color: transparent;
+                width: 8rem;
+                border: 2px solid orange;
+            }
         }
     }
 

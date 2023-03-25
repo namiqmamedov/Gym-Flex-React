@@ -1,7 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 15px 1.6%;
+  padding: 23px 1.75%;
 }
 .hero .left-h {
   display: flex;
@@ -11,8 +11,8 @@
 }
 .hero .right-h {
   flex: 1;
-  display: flex;
-  justify-content: flex-end;
+  background-color: #f48916;
+  position: relative;
   font-family: "Open Sans", sans-serif;
 }
 .hero .the-best-ad {
@@ -63,4 +63,35 @@
 }
 .hero .hero-text .span {
   font-family: "Open Sans", sans-serif;
+}
+.hero .figures {
+  display: flex;
+  gap: 2rem;
+}
+.hero .figures div {
+  display: flex;
+  flex-direction: column;
+}
+.hero .figures div span:nth-of-type(1) {
+  color: white;
+  font-size: 2rem;
+}
+.hero .figures div span:nth-of-type(2) {
+  color: grey;
+  text-transform: #9c9c9c;
+}
+.hero .hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.hero .hero-buttons button:nth-child(1) {
+  color: white;
+  background-color: orange;
+  width: 8rem;
+}
+.hero .hero-buttons button:nth-child(2) {
+  color: white;
+  background-color: transparent;
+  width: 8rem;
+  border: 2px solid orange;
 }/*# sourceMappingURL=Hero.css.map */
