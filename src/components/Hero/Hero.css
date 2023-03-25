@@ -1,0 +1,25 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 1.6%;
+}
+.hero .left-h {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 3;
+}
+.hero .right-h {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.hero .the-best-ad {
+  margin-top: 4rem;
+  background-color: #363d42;
+  border-radius: 4rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px 13px;
+}/*# sourceMappingURL=Hero.css.map */

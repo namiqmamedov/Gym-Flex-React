@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-main{
+        width: 10rem;
+        height: 3rem;
+    }
+
+    .header-menu{
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        color: white;
+        li{
+            cursor: pointer;
+
+            &:hover{
+                color: orange;
+            }
+        }
+    }
+
+    // .logo-index{
+    //     width: 20%;
+    // }
+
+    // .header-main{
+    //     width: 60%;
+    // }
+}

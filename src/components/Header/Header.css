@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo-main {
+  width: 10rem;
+  height: 3rem;
+}
+.header .header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+.header .header-menu li {
+  cursor: pointer;
+}
+.header .header-menu li:hover {
+  color: orange;
+}/*# sourceMappingURL=Header.css.map */
