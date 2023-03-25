@@ -1,6 +1,7 @@
 import React from 'react'
 import './Programs.scss'
 import {programsData} from '../../data/programsData'
+import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Programs = () => {
     return (
@@ -15,10 +16,11 @@ const Programs = () => {
                 {programsData.map((program) => (
                     <div className='category'>
                         {program.image}
-                        <span>{program.heading}</span>
-                        <span>{program.details}</span>
+                        <span className='card-title'>{program.heading}</span>
+                        <span className='card-subtitle'>{program.details}</span>
                         <div className="join-now">
-                            {/* <img src={} alt="" /> */}
+                            <span>Join Now</span>
+                           <AiOutlineArrowRight/>
                         </div>
                     </div>
                 ))}
