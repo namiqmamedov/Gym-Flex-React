@@ -1,0 +1,43 @@
+.Testimonials {
+  display: flex;
+  gap: 1rem;
+  padding: 23px 1.75%;
+}
+
+.left-t {
+  display: flex;
+  flex: 1 1;
+  gap: 2rem;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: white;
+}
+.left-t span:nth-child(1) {
+  color: orange;
+  font-weight: bold;
+}
+.left-t span:nth-child(2), .left-t span:nth-child(3) {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+.left-t span:nth-child(4) {
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.right-t {
+  flex: 1;
+  position: relative;
+}
+.right-t img {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+}/*# sourceMappingURL=Testimonials.css.map */
