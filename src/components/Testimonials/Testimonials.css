@@ -1,12 +1,12 @@
 .Testimonials {
   display: flex;
   gap: 1rem;
-  padding: 23px 1.75%;
+  padding: 123px 1.75%;
 }
 
 .left-t {
   display: flex;
-  flex: 1 1;
+  flex: 1;
   gap: 2rem;
   flex-direction: column;
   text-transform: uppercase;
@@ -32,12 +32,42 @@
   flex: 1;
   position: relative;
 }
+.right-t div:nth-child(1) {
+  position: absolute;
+  width: 17rem;
+  height: 20.15rem;
+  border: 2px solid orange;
+  background-color: transparent;
+  right: 9rem;
+  top: 2.9rem;
+}
+.right-t div:nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 19rem;
+  top: 6rem;
+  left: 26rem;
+  background: linear-gradient(210.41deg, rgb(250, 80, 66) 1.14%, rgb(255, 167, 57) 100.75%);
+}
 .right-t img {
   position: absolute;
   width: 17rem;
   height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
-  right: 8rem;
-  top: 2rem;
+  right: 7rem;
+  top: 4rem;
+}
+.right-t .arrows {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+}
+.right-t .arrows svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+  cursor: pointer;
 }/*# sourceMappingURL=Testimonials.css.map */

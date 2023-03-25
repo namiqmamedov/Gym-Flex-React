@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './Testimonials.scss'
+import {AiOutlineArrowRight} from 'react-icons/ai'
+import {AiOutlineArrowLeft} from 'react-icons/ai'
 import {testimonialsData} from '../../data/testimonialsData'
 
 const Testimonials = () => {
@@ -24,12 +26,23 @@ const Testimonials = () => {
             </span>
         </div>
         <div className="right-t">
+            <div></div>
+            <div></div>
             <img src={testimonialsData[selected].image} alt="" />
 
-            {/* <div className='arrows'>
-                <img src={leftArrow} alt="" />
-                <img src={rightArrow} alt="" />
-            </div> */}
+            <div className='arrows'>
+                <AiOutlineArrowLeft
+                onClick={() =>{
+                    selected===0?setSelected(tLength -1):
+                    setSelected((prev)=> prev - 1)
+                }}
+                />
+                <AiOutlineArrowRight
+                onClick={() => (
+                    selected===tLength -1 ? setSelected(0) : setSelected((prev) => prev + 1)
+                )}
+                />
+            </div>
         </div>
     </div>
   )
