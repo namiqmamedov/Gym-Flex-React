@@ -1,0 +1,18 @@
+.Programs {
+  padding: 23px 1.75%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.programs-header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  text-transform: uppercase;
+  font-style: italic;
+  color: white;
+}/*# sourceMappingURL=Programs.css.map */
