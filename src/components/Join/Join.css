@@ -1,0 +1,58 @@
+.Join {
+  padding: 6px 1.75%;
+  display: flex;
+  gap: 10rem;
+}
+.Join .left-j {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+.Join .left-j div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.Join .left-j hr {
+  position: absolute;
+  width: 10.5rem;
+  border: 2px solid orange;
+  border-radius: 20%;
+  top: -9px;
+}
+.Join .left-j span {
+  font-family: "Open Sans", sans-serif;
+}
+.Join .left-j .stroke-text {
+  font-size: 48px;
+  padding-right: 0px;
+}
+.Join .right-j {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Join .right-j .email-container {
+  display: flex;
+  gap: 3rem;
+  background-color: grey;
+  padding: 1rem 2rem;
+}
+.Join .right-j .email-container input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: lightgray;
+}
+.Join .right-j .email-container input::-moz-placeholder {
+  color: lightgray;
+}
+.Join .right-j .email-container input::placeholder {
+  color: lightgray;
+}
+.Join .right-j .email-container .btn-j {
+  background-color: orange;
+  color: white;
+}/*# sourceMappingURL=Join.css.map */

@@ -12,6 +12,9 @@
   text-transform: uppercase;
   color: white;
 }
+.left-t span {
+  font-family: "Open Sans", sans-serif;
+}
 .left-t span:nth-child(1) {
   color: orange;
   font-weight: bold;
