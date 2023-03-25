@@ -53,4 +53,30 @@
   font-size: 3rem;
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
+}
+.Reasons .right-r .details-r {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Reasons .right-r .details-r div {
+  display: flex;
+  font-size: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+.Reasons .right-r .details-r div img {
+  width: 2rem;
+  height: 2rem;
+}
+.Reasons .right-r .partner-title {
+  font-weight: normal;
+  color: grey;
+}
+.Reasons .right-r .partners {
+  display: flex;
+  gap: 1rem;
+}
+.Reasons .right-r .partners img {
+  width: 2.5rem;
 }/*# sourceMappingURL=Reasons.css.map */
