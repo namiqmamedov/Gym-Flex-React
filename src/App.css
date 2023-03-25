@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,13 @@
     overflow: hidden;
 }
 
-/* ::-webkit-scrollbar{
+   .stroke-text {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  } 
+
+ ::-webkit-scrollbar{
     display: none;
   }
   
@@ -37,11 +45,4 @@
   .btn:hover {
     cursor: pointer;
   }
-  
-  .stroke-text {
-    color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-  }
-   */
+

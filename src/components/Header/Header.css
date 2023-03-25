@@ -14,6 +14,7 @@
   color: white;
 }
 .header .header-menu li {
+  font-family: "Open Sans", sans-serif;
   cursor: pointer;
 }
 .header .header-menu li:hover {

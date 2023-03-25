@@ -1,30 +1,78 @@
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px 1.6%;
 
 
-    .left-h{
+    .left-h {
         display: flex;
         flex-direction: column;
         gap: 2rem;
         flex: 3;
     }
 
-    .right-h{
-        flex:1;
+    .right-h {
+        flex: 1;
         display: flex;
         justify-content: flex-end;
+        font-family: 'Open Sans', sans-serif;
     }
 
-    .the-best-ad{
+    .the-best-ad {
         margin-top: 4rem;
         background-color: #363d42;
         border-radius: 4rem;
         width: fit-content;
-        padding: 20px 13px;
+        padding: 20px 20px;
+        color: white;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        div {
+            position: absolute;
+            background-color: orange;
+            width: 5.4rem;
+            height: 80%;
+            left: 8px;
+            border-radius: 3rem;
+        }
+
+        span {
+            text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+            z-index: 2;
+        }
     }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        text-transform: uppercase;
+        font-size: 4.5rem;
+        font-weight: bold;
+        color: white;
+        text-overflow: inherit;
+
+        div{
+            &:nth-of-type(3){
+                font-size: 1rem;
+                font-weight: 200;
+                text-transform: none;
+                letter-spacing: 1px;
+                width: 80%;
+            }
+        }
+
+        span {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .span {
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+
 }
-
-
