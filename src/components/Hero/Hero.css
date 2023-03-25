@@ -3,6 +3,16 @@
   justify-content: space-between;
   padding: 23px 1.75%;
 }
+.hero .hero-blur {
+  height: 30rem;
+  left: 0;
+  width: 22rem;
+  background: rgba(253, 120, 43, 0.69);
+  border-radius: 50%;
+  filter: blur(150px);
+  position: absolute;
+  z-index: -9;
+}
 .hero .left-h {
   display: flex;
   flex-direction: column;
@@ -11,9 +21,87 @@
 }
 .hero .right-h {
   flex: 1;
-  background-color: #f48916;
   position: relative;
+  margin-top: -23px;
   font-family: "Open Sans", sans-serif;
+}
+.hero .right-h .bg-color {
+  background-color: orange;
+  position: absolute;
+  left: 7%;
+  top: 0%;
+  width: 100%;
+  height: 701px;
+}
+.hero .right-h .btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
+.hero .right-h .heart-rate {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #464d53;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  align-items: start;
+  border-radius: 5px;
+  position: absolute;
+  right: 4rem;
+  top: 7rem;
+}
+.hero .right-h .heart-rate img {
+  width: 2rem;
+}
+.hero .right-h .heart-rate span:nth-child(2) {
+  color: grey;
+}
+.hero .right-h .heart-rate span:nth-child(3) {
+  color: white;
+  font-size: 1.5rem;
+}
+.hero .right-h .hero-image {
+  position: absolute;
+  top: 10rem;
+  right: 8rem;
+  width: 23rem;
+}
+.hero .right-h .hero-image-back {
+  position: absolute;
+  top: 4rem;
+  right: 20rem;
+  z-index: -1;
+  width: 15rem;
+}
+.hero .right-h .calories {
+  display: flex;
+  gap: 2rem;
+  background-color: #656565;
+  border-radius: 5px;
+  padding: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 32rem;
+  right: 28rem;
+}
+.hero .right-h .calories img {
+  width: 3rem;
+}
+.hero .right-h .calories div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero .right-h .calories div span:nth-child(1) {
+  color: grey;
+}
+.hero .right-h .calories div span:nth-child(2) {
+  color: white;
+  font-size: 1.5rem;
 }
 .hero .the-best-ad {
   margin-top: 4rem;
@@ -21,7 +109,7 @@
   border-radius: 4rem;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 20px 20px;
+  padding: 20px;
   color: white;
   position: relative;
   display: flex;
@@ -59,9 +147,6 @@
   width: 80%;
 }
 .hero .hero-text span {
-  font-family: "Open Sans", sans-serif;
-}
-.hero .hero-text .span {
   font-family: "Open Sans", sans-serif;
 }
 .hero .figures {
