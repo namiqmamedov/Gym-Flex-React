@@ -6,6 +6,9 @@ import hero_image_back from '../../assets/hero_image_back.png'
 import Heart from '../../assets/heart.png'
 import Calories from '../../assets/calories.png'
 import {motion} from 'framer-motion'
+import { slide as Menu } from 'react-burger-menu'
+import './Hamburger.scss'
+
 
 const Hero = () => {
 
@@ -60,9 +63,8 @@ const Hero = () => {
                     <button className='btn'>Get Started</button>
                     <button className='btn'>Learn More</button>
                 </div>
-
             </div>
-
+            
             <div className='right-h'>
                 <div className="bg-color"></div>
                 <button className='btn'>
@@ -92,6 +94,14 @@ const Hero = () => {
                         <span>220 kcal</span>
                     </div>
                 </div>
+
+                <Menu>
+                <a id="home" className="menu-item" href="/">Home</a>
+                <a id="about" className="menu-item" href="/about">About</a>
+                <a id="contact" className="menu-item" href="/contact">Contact</a>
+                </Menu>
+
+
             </div>
         </div>
     )

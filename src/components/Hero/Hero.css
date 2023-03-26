@@ -179,4 +179,19 @@
   background-color: transparent;
   width: 8rem;
   border: 2px solid orange;
+}
+
+@media screen and (max-width: 576px) {
+  .hero {
+    padding: 23px 4.85%;
+  }
+  .hero .header-main {
+    display: none;
+  }
+  .hero .bg-color {
+    display: none;
+  }
+  .hero .btn {
+    display: none;
+  }
 }/*# sourceMappingURL=Hero.css.map */

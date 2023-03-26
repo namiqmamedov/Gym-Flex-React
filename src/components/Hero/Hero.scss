@@ -221,3 +221,22 @@
     }
 
 }
+
+@media screen and (max-width: 576px) {
+   
+    .hero {
+        padding: 23px 4.85%;
+        .header-main {
+            display: none;
+        }
+
+        .bg-color {
+            display: none;
+        }
+
+        .btn {
+            display: none;
+        }
+
+    }
+}
