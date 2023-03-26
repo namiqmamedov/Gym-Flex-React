@@ -164,3 +164,21 @@
     }
      
 }
+
+
+@media screen and (max-width: 1200px) 
+{
+    .plans-container{
+        padding: 23px 4.85%;
+        .programs-header{
+            gap: 5rem;
+
+            span{
+                font-size: 30px !important;
+                padding-right: 0;
+            }
+        }   
+
+    }
+     
+}

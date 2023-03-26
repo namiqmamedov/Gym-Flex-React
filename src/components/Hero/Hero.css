@@ -357,4 +357,38 @@
   .hero .right-h .calories img {
     width: 2rem;
   }
+}
+@media screen and (max-width: 1200px) {
+  .hero {
+    padding: 23px 4.85%;
+  }
+  .hero .right-h .calories {
+    top: 37rem;
+    right: 20rem;
+    width: 87%;
+  }
+  .hero .right-h .bg-color {
+    left: 21%;
+  }
+  .hero .right-h .heart-rate {
+    right: 1rem;
+  }
+  .hero .right-h .hero-image {
+    right: 93px;
+    width: 19rem;
+  }
+  .hero .right-h .btn {
+    right: 0;
+  }
+  .hero .the-best-ad {
+    padding: 14px 13px;
+    margin-top: 3rem;
+  }
+  .hero .hero-text {
+    font-size: 3rem;
+  }
+  .hero .hero-text div:nth-child(3) span {
+    max-width: 412px;
+    display: block;
+  }
 }/*# sourceMappingURL=Hero.css.map */

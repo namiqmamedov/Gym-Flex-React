@@ -192,8 +192,9 @@
             flex-direction: column;
 
             span {
-                font-family: 'Open Sans',sans-serif;
+                font-family: 'Open Sans', sans-serif;
                 text-transform: uppercase;
+
                 &:nth-of-type(1) {
                     color: white;
                     font-size: 2rem;
@@ -423,7 +424,7 @@
             .btn {
                 display: none;
             }
-    
+
             .heart-rate {
                 left: 1rem;
                 top: 2rem;
@@ -454,6 +455,61 @@
                 }
             }
         }
+
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .hero {
+        padding: 23px 4.85%;
+
+        .right-h {
+
+            .calories {
+                top: 37rem;
+                right: 20rem;
+                width: 87%;
+            }
+
+            .bg-color {
+                left: 21%;
+            }
+
+            .heart-rate {
+                right: 1rem;
+            }
+
+            .hero-image {
+                right: 93px;
+                width: 19rem;
+            }
+
+            .btn {
+                right: 0;
+            }
+        }
+
+        .the-best-ad {
+            padding: 14px 13px;
+            margin-top: 3rem;
+        }
+
+        .hero-text {
+            font-size: 3rem;
+
+            div {
+                &:nth-child(3) {
+                    span {
+                        max-width: 412px;
+                        display: block;
+                    }
+                }
+            }
+        }
+
+
 
     }
 }

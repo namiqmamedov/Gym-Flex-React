@@ -101,5 +101,18 @@
         }
 
     }
+}
+
+@media screen and (max-width: 1200px) {
+    .Programs{
+        padding: 45px 4.85%;
+        .programs-header {
     
+            span{
+                font-size: 2rem;
+                padding-right: 0px;
+            }
+        }
+
+    }
 }

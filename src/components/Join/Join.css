@@ -74,6 +74,16 @@
     gap: 3rem;
   }
   .Join span {
-    font-size: 32px !important;
+    font-size: 28px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Join {
+    flex-direction: column;
+    padding: 23px 4.85%;
+    gap: 3rem;
+  }
+  .Join span {
+    font-size: 2rem !important;
   }
 }/*# sourceMappingURL=Join.css.map */

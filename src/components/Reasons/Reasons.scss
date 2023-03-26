@@ -182,3 +182,53 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) 
+{
+    .Reasons {
+        padding: 23px 4.85%;
+
+        .right-r{
+            padding-left: 34px;
+
+            div{
+                font-size: 2rem;
+            }
+        }
+
+        img {
+            &:nth-child(1) {
+                width: 11.5rem !important;
+                height: 26.3rem !important; 
+            }
+
+            &:nth-child(2) {
+                width: 70% !important;
+            }
+
+            &:nth-child(3) {
+                width: 11.6rem !important;
+            }
+
+            &:nth-child(4) {
+                width: 8.5rem !important;
+            }
+        }
+
+        .details-r {
+            div {
+                img {
+                    width: 2rem !important;
+                    height: auto !important;
+                }
+            }
+        }
+
+        .partners {
+            img {
+                width: 3rem !important;
+                height: 20px !important;
+            }
+        }
+    }
+}
