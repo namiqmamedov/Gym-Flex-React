@@ -116,3 +116,18 @@
 
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .Programs{
+        padding: 45px 2.35%;
+
+        .programs-header {
+            span{
+                font-size: 2.6rem;
+                padding-right: 0px;
+            }
+            font-size: 45px;
+        }
+
+    }
+}

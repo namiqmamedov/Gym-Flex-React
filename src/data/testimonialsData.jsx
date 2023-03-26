@@ -12,7 +12,7 @@ export const testimonialsData = [
   },
   {
     image: image2,
-    review: 'Access this kind of quality training for yourself – drop us a message below to start a conversation, and come in for a free chat about how we can help push you on!    ',
+    review: 'Access this kind of quality training for yourself – drop us a message below to start a conversation!    ',
     name: 'JOHN KEVIN',
     status: 'COACH'
   },

@@ -90,4 +90,16 @@
     font-size: 2rem;
     padding-right: 0px;
   }
+}
+@media screen and (min-width: 1200px) {
+  .Programs {
+    padding: 45px 2.35%;
+  }
+  .Programs .programs-header {
+    font-size: 45px;
+  }
+  .Programs .programs-header span {
+    font-size: 2.6rem;
+    padding-right: 0px;
+  }
 }/*# sourceMappingURL=Programs.css.map */

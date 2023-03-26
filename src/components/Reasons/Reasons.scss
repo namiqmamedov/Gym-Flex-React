@@ -232,3 +232,25 @@
         }
     }
 }
+
+@media screen and (min-width: 1200px) 
+{
+    .Reasons {
+        padding: 3px 2.35%;
+
+
+        .right-r{
+            padding-left: 40px;
+        }
+
+        .left-r{
+            img {
+                &:nth-child(2) {
+                    width: 26.9rem !important;
+                }
+    
+            }
+        }
+
+    }
+}

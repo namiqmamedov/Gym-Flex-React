@@ -269,3 +269,61 @@
 
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .Testimonials {
+        padding: 23px 2.35% !important;
+
+        .left-t {
+            span {
+                font-size: 32px !important;
+                padding-right: 0;
+
+                &:nth-child(4) {
+                    font-size: 16px !important;
+                }
+
+                &:nth-child(5) {
+                    span {
+                        font-size: 16px !important;
+                    }
+
+                    font-size: 16px !important;
+                }
+            }
+        }
+
+        .right-t {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            justify-content: center;
+
+            div {
+                &:nth-child(1) {
+                    left: 29.2%;
+                    top: 2.2rem;
+                }
+
+                &:nth-child(2) {
+                    left: 34.8%;
+                    bottom: auto;
+                    top: 5.2rem;
+                }
+            }
+
+            .arrows {
+                bottom: -0.2rem;
+                left: -5rem;
+            }
+
+                img {
+                    position: relative;
+                    left: 13px;
+                    top: 22px;
+                }
+        }
+
+    }
+}
