@@ -55,7 +55,7 @@
   width: 1rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .Programs {
     padding: 23px 4.85%;
   }
@@ -71,5 +71,14 @@
   }
   .Programs .program-categories {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Programs {
+    padding: 23px 4.85%;
+  }
+  .Programs .programs-header span {
+    font-size: 24px;
+    padding-right: 0px;
   }
 }/*# sourceMappingURL=Programs.css.map */

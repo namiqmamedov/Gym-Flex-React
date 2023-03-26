@@ -24,3 +24,12 @@
     }
 
 }
+
+@media screen and (max-width: 992px) 
+{
+    .header{
+        .header-main{
+            display: block !important;
+        }
+    }
+}

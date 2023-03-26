@@ -89,7 +89,7 @@
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .Testimonials {
         padding: 23px 4.85% !important;
         flex-direction: column;
@@ -113,29 +113,30 @@
             }
         }
 
-        .right-t{
+        .right-t {
             align-items: center;
             display: flex;
             flex-direction: column;
             gap: 2rem;
             justify-content: center;
 
-            div{
-                &:nth-child(1){
+            div {
+                &:nth-child(1) {
                     display: none;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     display: none;
                 }
             }
 
-            .arrows{
+            .arrows {
                 left: auto;
                 top: -2.4rem;
                 right: 1rem;
             }
 
-            img{
+            img {
                 align-self: center;
                 position: relative;
                 right: 0;
@@ -143,6 +144,70 @@
             }
         }
 
-       
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Testimonials {
+        padding: 23px 4.85% !important;
+        flex-direction: column;
+
+        .left-t {
+            span {
+                font-size: 32px !important;
+                padding-right: 0;
+
+                &:nth-child(4) {
+                    font-size: 16px !important;
+                }
+
+                &:nth-child(5) {
+                    span {
+                        font-size: 16px !important;
+                    }
+
+                    font-size: 16px !important;
+                }
+            }
+        }
+
+        .right-t {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            justify-content: center;
+
+            div {
+                &:nth-child(1)
+                 {
+                    left: 33%;
+                    top: 0.9rem;
+                }
+
+                &:nth-child(2) 
+                {
+                    left: 36.8%;
+                    bottom: auto;
+                    margin-top: -32px;
+                }
+            }
+
+            .arrows {
+                left: auto;
+                top: -2.4rem;
+                right: 1rem;
+            }
+
+            img {
+                align-self: center;
+                position: relative;
+                right: 0;
+                top: 0;
+            }
+        }
+
+
     }
 }

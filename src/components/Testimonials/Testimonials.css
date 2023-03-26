@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .Testimonials {
     padding: 23px 4.85% !important;
     flex-direction: column;
@@ -103,6 +103,52 @@
   }
   .Testimonials .right-t div:nth-child(2) {
     display: none;
+  }
+  .Testimonials .right-t .arrows {
+    left: auto;
+    top: -2.4rem;
+    right: 1rem;
+  }
+  .Testimonials .right-t img {
+    align-self: center;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Testimonials {
+    padding: 23px 4.85% !important;
+    flex-direction: column;
+  }
+  .Testimonials .left-t span {
+    font-size: 32px !important;
+    padding-right: 0;
+  }
+  .Testimonials .left-t span:nth-child(4) {
+    font-size: 16px !important;
+  }
+  .Testimonials .left-t span:nth-child(5) {
+    font-size: 16px !important;
+  }
+  .Testimonials .left-t span:nth-child(5) span {
+    font-size: 16px !important;
+  }
+  .Testimonials .right-t {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .Testimonials .right-t div:nth-child(1) {
+    left: 33%;
+    top: 0.9rem;
+  }
+  .Testimonials .right-t div:nth-child(2) {
+    left: 36.8%;
+    bottom: auto;
+    margin-top: -32px;
   }
   .Testimonials .right-t .arrows {
     left: auto;

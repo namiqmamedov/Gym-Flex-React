@@ -188,7 +188,7 @@
   border: 2px solid orange;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .hero {
     padding: 23px 4.85%;
     display: block;
@@ -248,12 +248,6 @@
   .hero .right-h .btn {
     display: none;
   }
-  .hero .right-h .hero-image {
-    left: 7rem;
-    position: relative;
-    top: 4rem;
-    width: 15rem;
-  }
   .hero .right-h .heart-rate {
     left: 1rem;
     top: 2rem;
@@ -263,6 +257,91 @@
     position: relative;
     top: 4rem;
     width: 15rem;
+  }
+  .hero .right-h .hero-image-back {
+    left: 2rem;
+    top: 0;
+    width: 15rem;
+  }
+  .hero .right-h .calories {
+    width: 218px;
+    left: 2rem;
+    position: relative;
+    top: 5rem;
+  }
+  .hero .right-h .calories img {
+    width: 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero {
+    padding: 23px 4.85%;
+    display: block;
+  }
+  .hero .left-h {
+    gap: 0;
+    flex: 3 1;
+  }
+  .hero .left-h div:nth-child(6) {
+    display: block;
+  }
+  .hero .header-main {
+    display: none;
+  }
+  .hero .hero-buttons {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+  }
+  .hero .hero-text {
+    gap: 0;
+    text-align: center;
+  }
+  .hero .hero-text div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero .hero-text div:nth-child(3) span {
+    text-align: center;
+    font-size: 13px !important;
+  }
+  .hero .hero-text div span {
+    font-size: 32px;
+  }
+  .hero .the-best-ad {
+    align-self: center;
+    font-size: small;
+    padding: 15px 13px;
+    margin-top: 2.7rem;
+  }
+  .hero .the-best-ad div {
+    width: 4.1rem;
+  }
+  .hero .figures {
+    gap: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+  }
+  .hero .bg-color {
+    display: none;
+  }
+  .hero .right-h {
+    position: relative;
+    flex: 1 1;
+  }
+  .hero .right-h .btn {
+    display: none;
+  }
+  .hero .right-h .heart-rate {
+    left: 1rem;
+    top: 2rem;
+  }
+  .hero .right-h .hero-image {
+    left: 7rem;
+    position: relative;
+    top: 4rem;
+    width: 16rem;
   }
   .hero .right-h .hero-image-back {
     left: 2rem;

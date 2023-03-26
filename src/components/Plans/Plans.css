@@ -99,7 +99,7 @@
   width: 1rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .plans-container {
     padding: 23px 4.85%;
   }
@@ -114,5 +114,17 @@
   }
   .plans-container .plans {
     flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 992px) {
+  .plans-container {
+    padding: 23px 4.85%;
+  }
+  .plans-container .programs-header {
+    gap: 5rem;
+  }
+  .plans-container .programs-header span {
+    font-size: 24px !important;
+    padding-right: 0;
   }
 }/*# sourceMappingURL=Plans.css.map */

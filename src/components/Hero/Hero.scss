@@ -229,7 +229,7 @@
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
     .hero {
         padding: 23px 4.85%;
@@ -309,13 +309,6 @@
                 display: none;
             }
 
-            .hero-image {
-                left: 7rem;
-                position: relative;
-                top: 4rem;
-                width: 15rem;
-            }
-
             .heart-rate {
                 left: 1rem;
                 top: 2rem;
@@ -326,6 +319,121 @@
                 position: relative;
                 top: 4rem;
                 width: 15rem;
+            }
+
+            .hero-image-back {
+                left: 2rem;
+                top: 0;
+                width: 15rem;
+            }
+
+            .calories {
+                width: 218px;
+                left: 2rem;
+                position: relative;
+                top: 5rem;
+
+
+                img {
+                    width: 2rem;
+                }
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .hero {
+        padding: 23px 4.85%;
+        display: block;
+
+        .left-h {
+            gap: 0;
+            flex: 3 1;
+
+
+            div {
+                &:nth-child(6) {
+                    display: block;
+                }
+            }
+        }
+
+        .header-main {
+            display: none;
+        }
+
+        .hero-buttons {
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 25px;
+        }
+
+        .hero-text {
+            gap: 0;
+            text-align: center;
+
+            div {
+                margin-left: auto;
+                margin-right: auto;
+
+                &:nth-child(3) {
+                    span {
+                        text-align: center;
+                        font-size: 13px !important;
+                    }
+                }
+
+                span {
+                    font-size: 32px;
+                }
+            }
+
+        }
+
+        .the-best-ad {
+            align-self: center;
+            font-size: small;
+            padding: 15px 13px;
+            margin-top: 2.7rem;
+
+            div {
+                width: 4.1rem;
+            }
+        }
+
+        .figures {
+            gap: 1.8rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 25px;
+        }
+
+        .bg-color {
+            display: none;
+        }
+
+        .right-h {
+            position: relative;
+            flex: 1 1;
+
+            .btn {
+                display: none;
+            }
+    
+            .heart-rate {
+                left: 1rem;
+                top: 2rem;
+            }
+
+            .hero-image {
+                left: 7rem;
+                position: relative;
+                top: 4rem;
+                width: 16rem;
             }
 
             .hero-image-back {

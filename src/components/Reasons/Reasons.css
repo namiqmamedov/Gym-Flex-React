@@ -80,7 +80,7 @@
   width: 2.5rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .Reasons {
     padding: 23px 4.85%;
     display: block;
@@ -99,6 +99,32 @@
   .Reasons img:nth-child(4) {
     height: 6rem !important;
     width: 7rem !important;
+  }
+  .Reasons .details-r div img {
+    width: 2rem !important;
+    height: auto !important;
+  }
+  .Reasons .partners img {
+    width: 3rem !important;
+    height: 20px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Reasons {
+    padding: 23px 4.85%;
+    display: block;
+  }
+  .Reasons img:nth-child(1) {
+    width: 11.5rem !important;
+  }
+  .Reasons img:nth-child(2) {
+    width: 70% !important;
+  }
+  .Reasons img:nth-child(3) {
+    width: 14rem !important;
+  }
+  .Reasons img:nth-child(4) {
+    width: 10rem !important;
   }
   .Reasons .details-r div img {
     width: 2rem !important;
