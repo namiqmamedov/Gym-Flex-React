@@ -1,0 +1,67 @@
+.footer-container {
+    padding: 0 1.75%;
+    position: relative;
+
+    hr {
+        border: 1px solid lightgray;
+    }
+
+    .blur-f{
+        bottom: 0;
+        -webkit-filter: blur(200px);
+        filter: blur(200px);
+        height: 12rem;
+        width: 26rem;
+        background: red;
+        right: 15%;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -9;
+
+    }
+
+    .blur-f1{
+        bottom: 0;
+        -webkit-filter: blur(200px);
+        filter: blur(200px);
+        height: 12rem;
+        width: 26rem;
+        background: #ff7300;
+        left: 15%;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -9;
+    }
+
+
+    .social-links {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+            cursor: pointer;
+            color: white;
+        }
+    }
+
+    .footer {
+        padding: 1rem 2rem;
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .logo-footer {
+        text-align: center;
+        margin-bottom: 85px;
+
+        img {
+            width: 8.7rem;
+        }
+    }
+}
