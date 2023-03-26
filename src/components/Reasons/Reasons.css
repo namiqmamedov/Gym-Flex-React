@@ -78,4 +78,34 @@
 }
 .Reasons .right-r .partners img {
   width: 2.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .Reasons {
+    padding: 23px 4.85%;
+    display: block;
+  }
+  .Reasons img:nth-child(1) {
+    height: 17rem !important;
+    width: 7rem !important;
+  }
+  .Reasons img:nth-child(2) {
+    height: 10rem !important;
+    width: 15rem !important;
+  }
+  .Reasons img:nth-child(3) {
+    width: 7rem !important;
+  }
+  .Reasons img:nth-child(4) {
+    height: 6rem !important;
+    width: 7rem !important;
+  }
+  .Reasons .details-r div img {
+    width: 2rem !important;
+    height: auto !important;
+  }
+  .Reasons .partners img {
+    width: 3rem !important;
+    height: 20px !important;
+  }
 }/*# sourceMappingURL=Reasons.css.map */

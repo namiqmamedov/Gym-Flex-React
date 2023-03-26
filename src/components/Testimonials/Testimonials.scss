@@ -1,88 +1,148 @@
-.Testimonials{
+.Testimonials {
     display: flex;
     gap: 1rem;
     padding: 123px 1.75%;
-}
 
-.left-t{
-    display: flex;
-    flex: 1;
-    gap: 2rem;
-    flex-direction: column;
-    text-transform: uppercase;
-    color: white;
 
-    span{
-        font-family: 'Open Sans',sans-serif;
-        &:nth-child(1){
-            color: orange;
-            font-weight: bold;
-        }
-    
-        &:nth-child(2),&:nth-child(3){
-            font-size: 3rem;
-            font-weight: bold;
-            font-family: 'Open Sans',sans-serif;
-        }
-
-        &:nth-child(4){
-            text-transform: none;
-            text-align: justify;
-            letter-spacing: 2px;
-            line-height: 40px;
-        }
-    }
-}
-
-.right-t{
-    flex: 1;
-    position: relative;
-
-    div{
-        &:nth-child(1){
-            position: absolute;
-            width: 17rem;
-            height: 20.15rem;
-            border: 2px solid orange;
-            background-color: transparent;
-            right: 9rem;
-            top: 2.9rem;
-        }
-
-        &:nth-child(2){
-            position: absolute;
-            width: 17rem;
-            height: 19rem;
-            top: 6rem;
-            left: 26rem;
-            background: linear-gradient(210.41deg, rgb(250, 80, 66) 1.14%, rgb(255, 167, 57) 100.75%);
-        }
-    }
-
-    img{
-        position: absolute;
-        width: 17rem;
-        height: 20rem;
-        object-fit: cover;
-        right: 7rem;
-        top: 4rem;
-    }
-
-    .arrows{
+    .left-t {
         display: flex;
-        gap: 1rem;
-        position: absolute;
-        bottom: 1rem;
-        left: 3rem;
+        flex: 1;
+        gap: 2rem;
+        flex-direction: column;
+        text-transform: uppercase;
+        color: white;
 
-        svg{
-            width: 1.5rem;
-            height: 1.5rem;
-            color: white;
-            cursor: pointer;
+        span {
+            font-family: 'Open Sans', sans-serif;
+
+            &:nth-child(1) {
+                color: orange;
+                font-weight: bold;
+            }
+
+            &:nth-child(2),
+            &:nth-child(3) {
+                font-size: 3rem;
+                font-weight: bold;
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            &:nth-child(4) {
+                text-transform: none;
+                text-align: justify;
+                letter-spacing: 2px;
+                line-height: 40px;
+            }
         }
-
     }
 
-   
+    .right-t {
+        flex: 1;
+        position: relative;
+
+        div {
+            &:nth-child(1) {
+                position: absolute;
+                width: 17rem;
+                height: 20.15rem;
+                border: 2px solid orange;
+                background-color: transparent;
+                right: 9rem;
+                top: 2.9rem;
+            }
+
+            &:nth-child(2) {
+                position: absolute;
+                width: 17rem;
+                height: 19rem;
+                top: 6rem;
+                left: 26rem;
+                background: linear-gradient(210.41deg, rgb(250, 80, 66) 1.14%, rgb(255, 167, 57) 100.75%);
+            }
+        }
+
+        img {
+            position: absolute;
+            width: 17rem;
+            height: 20rem;
+            object-fit: cover;
+            right: 7rem;
+            top: 4rem;
+        }
+
+        .arrows {
+            display: flex;
+            gap: 1rem;
+            position: absolute;
+            bottom: 1rem;
+            left: 3rem;
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                color: white;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .Testimonials {
+        padding: 23px 4.85% !important;
+        flex-direction: column;
+
+        .left-t {
+            span {
+                font-size: 32px !important;
+                padding-right: 0;
+
+                &:nth-child(4) {
+                    font-size: 16px !important;
+                }
+
+                &:nth-child(5) {
+                    span {
+                        font-size: 16px !important;
+                    }
+
+                    font-size: 16px !important;
+                }
+            }
+        }
+
+        .right-t{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            justify-content: center;
+
+            div{
+                &:nth-child(1){
+                    display: none;
+                }
+                &:nth-child(2){
+                    display: none;
+                }
+            }
+
+            .arrows{
+                left: auto;
+                top: -2.4rem;
+                right: 1rem;
+            }
+
+            img{
+                align-self: center;
+                position: relative;
+                right: 0;
+                top: 0;
+            }
+        }
+
+       
+    }
 }

@@ -8,11 +8,14 @@ import Calories from '../../assets/calories.png'
 import {motion} from 'framer-motion'
 import { slide as Menu } from 'react-burger-menu'
 import './Hamburger.scss'
+import {Link} from 'react-scroll'
+import NumberCounter from 'number-counter'
 
 
 const Hero = () => {
 
     const transition = {type: 'spring', duration: 3}
+    const mobile = window.innerWidth<=768 ? true : false;
 
     return (
         <div className='hero'>
@@ -21,7 +24,7 @@ const Hero = () => {
                 <Header/>
                 <div className='the-best-ad'>
                     <motion.div
-                        initial={{left: '238px'}}
+                        initial={{left: mobile? "178px": '238px'}}
                         whileInView={{left: '8px'}}
                         transition={{...transition, type: 'tween'}}
                     ></motion.div>
@@ -46,15 +49,21 @@ const Hero = () => {
 
                 <div className="figures">
                     <div>
-                        <span>+140</span>
+                        <span>
+                          <NumberCounter start={100} end={140} delay='4' preFix="+"/>
+                        </span>
                         <span>expert coachs</span>
                     </div>
                     <div>
-                        <span>+978</span>
+                    <span>
+                        <NumberCounter start={800} end={978} delay='4' preFix="+"/>
+                        </span>
                         <span>members joined</span>
                     </div>
                     <div>
-                        <span>+50</span>
+                    <span>
+                        <NumberCounter start={32} end={50} delay='4' preFix="+"/>
+                        </span>
                         <span>fitness programs</span>
                     </div>
                 </div>
@@ -63,6 +72,21 @@ const Hero = () => {
                     <button className='btn'>Get Started</button>
                     <button className='btn'>Learn More</button>
                 </div>
+                
+                <Menu>
+                <a id="home" className="menu-item" href="/">
+                  <Link to='hero' spy='true' smooth='true'>Home</Link>
+                </a>
+                <a id="about" className="menu-item" href="/">
+                  <Link to='Programs' spy='true' smooth='true'>Programs</Link>
+                </a>
+                <a id="plan" className="menu-item" href="/">
+                  <Link to='plans-container' spy='true' smooth='true'>Plans</Link>
+                </a>
+                <a id="testimonial" className="menu-item" href="/">
+                   <Link to='Testimonials' spy='true' smooth='true'>Testimonial</Link>
+                </a>
+                </Menu>
             </div>
             
             <div className='right-h'>
@@ -94,14 +118,6 @@ const Hero = () => {
                         <span>220 kcal</span>
                     </div>
                 </div>
-
-                <Menu>
-                <a id="home" className="menu-item" href="/">Home</a>
-                <a id="about" className="menu-item" href="/about">About</a>
-                <a id="contact" className="menu-item" href="/contact">Contact</a>
-                </Menu>
-
-
             </div>
         </div>
     )

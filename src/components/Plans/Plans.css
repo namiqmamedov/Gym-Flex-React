@@ -97,4 +97,22 @@
 }
 .plans-container .plans .feature img {
   width: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  .plans-container {
+    padding: 23px 4.85%;
+  }
+  .plans-container .programs-header {
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+  }
+  .plans-container .programs-header span {
+    font-size: 24px !important;
+    padding-right: 0;
+  }
+  .plans-container .plans {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=Plans.css.map */

@@ -2,10 +2,10 @@
 
     .bm-burger-button {
         position: fixed;
-        width: 36px;
-        height: 30px;
-        left: auto;
+        width: 30px;
+        height: 27px;
         top: 36px;
+        left: 89%;
 
     }
 
@@ -25,12 +25,13 @@
     .bm-menu-wrap {
         position: fixed;
         height: 100%;
-        left: auto !important;
-        right: 4px !important;
+        right: 0px !important;
+        top: 0px;
+        width: 250px !important;
     }
 
     .bm-menu {
-        background: #373a47;
+        background: #505257;
         padding: 2.5em 1.5em 0;
         font-size: 1.15em;
     }
@@ -46,6 +47,12 @@
 
     .bm-item {
         display: inline-block;
+        padding: 9px 0;
+        color: transparent;
+        a{
+            color: white;
+            text-decoration: none;
+        }
     }
 
     .bm-overlay {
