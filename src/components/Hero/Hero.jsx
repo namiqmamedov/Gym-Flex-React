@@ -9,7 +9,7 @@ import {motion} from 'framer-motion'
 import { slide as Menu } from 'react-burger-menu'
 import './Hamburger.scss'
 import {Link} from 'react-scroll'
-import NumberCounter from 'number-counter'
+import CountUp from 'react-countup';
 
 
 const Hero = () => {
@@ -51,19 +51,19 @@ const Hero = () => {
                 <div className="figures">
                     <div>
                         <span>
-                          <NumberCounter start={100} end={140} delay='4' preFix="+"/>
+                          <CountUp end={140} start={100}  preFix="+"/>
                         </span>
                         <span>expert coachs</span>
                     </div>
                     <div>
                     <span>
-                        <NumberCounter start={800} end={978} delay='4' preFix="+"/>
+                        <CountUp end={978} start={800} preFix="+"/>
                         </span>
                         <span>members joined</span>
                     </div>
                     <div>
                     <span>
-                        <NumberCounter start={32} end={50} delay='4' preFix="+"/>
+                        <CountUp end={50}  start={32}  preFix="+"/>
                         </span>
                         <span>fitness programs</span>
                     </div>
