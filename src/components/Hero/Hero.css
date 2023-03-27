@@ -186,6 +186,10 @@
   background-color: transparent;
   width: 8rem;
   border: 2px solid orange;
+  transition: 0.3s ease-in-out;
+}
+.hero .hero-buttons button:nth-child(2):hover {
+  background-color: #363a45;
 }
 
 @media screen and (max-width: 768px) {
@@ -405,5 +409,11 @@
   }
   .hero .right-h .btn {
     right: 0;
+  }
+  .hero .right-h .hero-image-back {
+    right: 18rem !important;
+  }
+  .hero .the-best-ad div {
+    width: 5.15rem;
   }
 }/*# sourceMappingURL=Hero.css.map */

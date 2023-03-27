@@ -224,6 +224,11 @@
                 background-color: transparent;
                 width: 8rem;
                 border: 2px solid orange;
+                transition: 0.3s ease-in-out;
+
+                &:hover{
+                    background-color: #363a45;
+                }
             }
         }
     }
@@ -537,6 +542,16 @@
             }
             .btn{
                 right: 0;
+            }
+
+            .hero-image-back{
+                right: 18rem !important;
+            }
+        }
+
+        .the-best-ad {
+            div{
+                width: 5.15rem;
             }
         }
 

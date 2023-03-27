@@ -16,6 +16,7 @@
 .header .header-menu li {
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 .header .header-menu li:hover {
   color: orange;

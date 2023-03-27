@@ -16,6 +16,7 @@
         li{
             font-family: 'Open Sans',sans-serif;
             cursor: pointer;
+            transition: .3s ease-in-out;
 
             &:hover{
                 color: orange;
