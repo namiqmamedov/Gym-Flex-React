@@ -5,6 +5,7 @@ import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import Logo from '../../assets/logo.png'
 
+
 const Footer = () => {
     return (
         <>
@@ -12,9 +13,15 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className="social-links">
                     <div className="footer">
-                        <AiFillGithub/>
-                        <AiOutlineInstagram/>
-                        <AiOutlineLinkedin/>
+                        <a target="_blank" href="https://github.com/namiqmamedov">
+                            <AiFillGithub/>
+                        </a>
+                        <a target="_blank" href="http://instagram.com/fit_club">
+                            <AiOutlineInstagram/>
+                        </a>
+                       <a target="_blank" href="https://www.linkedin.com/company/fit-club/">
+                            <AiOutlineLinkedin/>
+                       </a>
                     </div>
                 </div>
                 <div className="logo-footer">

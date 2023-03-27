@@ -403,4 +403,7 @@
   .hero .right-h .bg-color {
     left: 9.4%;
   }
+  .hero .right-h .btn {
+    right: 0;
+  }
 }/*# sourceMappingURL=Hero.css.map */
